@@ -7,6 +7,10 @@
 
     <div class="py-6 px-4 mx-auto max-w-7xl">
         <div id="kpi-container" class="flex flex-wrap gap-4"></div>
+
+        <p id="kpi-last-update" class="text-sm text-gray-500 mt-4">
+            Última atualização: carregando...
+        </p>
     </div>
 
     <script src="{{ asset('js/dashboard.js') }}"></script>

@@ -23,6 +23,10 @@ async function carregarKPIs() {
 
             container.innerHTML += card;
         });
+
+        const data = new Date();
+        document.getElementById('kpi-last-update').textContent =
+            `Última atualização: ${data.toLocaleString('pt-BR')}`;
     } catch (error) {
         container.innerHTML = `<p class="text-red-600">Erro ao carregar KPIs.</p>`;
         console.error(error);
