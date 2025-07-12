@@ -87,3 +87,9 @@ sail artisan test
 - Deploy automático com CI/CD
 
 ---
+
+## 🎥 Demonstração do Projeto
+
+[![Assista ao vídeo de demonstração](https://img.youtube.com/vi/nFypq2-q2s8/maxresdefault.jpg)](https://youtu.be/nFypq2-q2s8)
+
+---
